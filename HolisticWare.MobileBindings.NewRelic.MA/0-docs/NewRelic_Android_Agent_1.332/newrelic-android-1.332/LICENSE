@@ -1,0 +1,106 @@
+Copyright (c) 2012 New Relic, Inc.  All rights reserved.
+
+Certain inventions disclosed in this file may be claimed within
+patents owned or patent applications filed by New Relic, Inc. or third
+parties.
+
+Subject to the terms of this notice, New Relic grants you a
+nonexclusive, nontransferable license, without the right to
+sublicense, to (a) install and execute one copy of these files on any
+number of workstations owned or controlled by you and (b) distribute
+verbatim copies of these files to third parties.  As a condition to the
+foregoing grant, you must provide this notice along with each copy you
+distribute and you must not remove, alter, or obscure this notice. All
+other use, reproduction, modification, distribution, or other
+exploitation of these files is strictly prohibited, except as may be set
+forth in a separate written license agreement between you and New
+Relic.  The terms of any such license agreement will control over this
+notice.  The license stated above will be automatically terminated and
+revoked if you exceed its scope or violate any of the terms of this
+notice.
+
+This License does not grant permission to use the trade names,
+trademarks, service marks, or product names of New Relic, except as
+required for reasonable and customary use in describing the origin of
+this file and reproducing the content of this notice.  You may not
+mark or brand this file with any trade name, trademarks, service
+marks, or product names other than the original brand (if any)
+provided by New Relic.
+
+Unless otherwise expressly agreed by New Relic in a separate written
+license agreement, these files are provided AS IS, WITHOUT WARRANTY OF
+ANY KIND, including without any implied warranties of MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, TITLE, or NON-INFRINGEMENT.  As a
+condition to your use of these files, you are solely responsible for
+such use. New Relic will have no liability to you for direct,
+indirect, consequential, incidental, special, or punitive damages or
+for lost profits or data.
+
+
+
+
+Third-Party Licenses
+--------
+The New Relic Android agent uses code from the following open source projects
+under their respective licenses:
+
+mockito
+	http://code.google.com/p/mockito/
+	http://opensource.org/licenses/mit-license.php
+
+junit
+	http://junit.sourceforge.net/
+	http://junit.sourceforge.net/cpl-v10.html
+
+commons-logging
+	http://commons.apache.org/logging/
+	http://www.apache.org/licenses/LICENSE-2.0
+
+httpclient
+	http://hc.apache.org/httpclient-3.x/
+	http://www.apache.org/licenses/LICENSE-2.0
+
+org.json
+	https://github.com/douglascrockford/JSON-java
+	http://www.json.org/license.html
+
+asm
+	http://asm.ow2.org/
+	http://asm.ow2.org/license.html
+
+ant
+	http://ant.apache.org/
+	http://www.apache.org/licenses/LICENSE-2.0
+
+dom4j
+	http://dom4j.sourceforge.net/dom4j-1.6.1/license.html
+	http://dom4j.sourceforge.net/dom4j-1.6.1/license.html
+
+gson
+	http://code.google.com/p/google-gson/
+	http://www.apache.org/licenses/LICENSE-2.0
+
+guava
+	http://code.google.com/p/guava-libraries/
+	http://www.apache.org/licenses/LICENSE-2.0
+
+javassist
+	http://www.csg.ci.i.u-tokyo.ac.jp/~chiba/javassist/
+	http://www.apache.org/licenses/LICENSE-2.0
+
+jsr305.jar
+	http://code.google.com/p/jsr-305/
+	http://opensource.org/licenses/BSD-3-Clause
+
+reflections
+	http://reflections.googlecode.com/
+	http://reflections.googlecode.com/svn/trunk/reflections/COPYING.txt
+
+slf4j
+	http://www.slf4j.org/
+	http://www.slf4j.org/license.html
+	
+xml-apis
+	http://xerces.apache.org/xml-commons/
+	http://xerces.apache.org/xml-commons/licenses.html
+	
