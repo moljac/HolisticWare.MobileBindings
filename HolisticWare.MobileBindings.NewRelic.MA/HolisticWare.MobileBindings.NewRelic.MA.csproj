@@ -44,7 +44,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="0-docs\18529.pdf" />
+    <None Include="0-docs\18530.pdf" />
+    <None Include="0-docs\18531.pdf" />
+    <None Include="0-docs\18607.pdf" />
     <None Include="0-docs\browse-docs.bat" />
+    <LibraryProjectZip Include="0-docs\NewRelic_Android_Agent_1.332.zip" />
     <None Include="0-docs\nrandroid-setup.bat" />
     <None Include="0-docs\NewRelic_Android_Agent_1.332\newrelic-android-1.332\bin\common" />
     <None Include="0-docs\NewRelic_Android_Agent_1.332\newrelic-android-1.332\bin\nrandroid-ant" />

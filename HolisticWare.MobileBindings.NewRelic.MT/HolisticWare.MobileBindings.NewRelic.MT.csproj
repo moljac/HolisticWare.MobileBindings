@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -44,6 +44,28 @@
   </ItemGroup>
   <ItemGroup>
     <ObjcBindingCoreSource Include="StructsAndEnums.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="0-docs\18699.pdf" />
+    <None Include="0-docs\18701.pdf" />
+    <None Include="0-docs\18710.pdf" />
+    <None Include="0-docs\browse-docs.bat" />
+    <LibraryProjectZip Include="0-docs\NewRelic_iOS_Agent_1.300.zip" />
+    <None Include="0-docs\generate-bindings.bat" />
+    <None Include="0-docs\NewRelic_iOS_Agent_1.300\NewRelic_iOS_Agent_1.300\LICENSE" />
+    <None Include="0-docs\NewRelic_iOS_Agent_1.300\NewRelic_iOS_Agent_1.300\NewRelicAgent.framework\Headers" />
+    <None Include="0-docs\NewRelic_iOS_Agent_1.300\NewRelic_iOS_Agent_1.300\NewRelicAgent.framework\NewRelicAgent" />
+    <None Include="0-docs\NewRelic_iOS_Agent_1.300\NewRelic_iOS_Agent_1.300\NewRelicAgent.framework\Resources" />
+    <None Include="0-docs\NewRelic_iOS_Agent_1.300\NewRelic_iOS_Agent_1.300\NewRelicAgent.framework\Versions\A\NewRelicAgent" />
+    <None Include="0-docs\NewRelic_iOS_Agent_1.300\NewRelic_iOS_Agent_1.300\NewRelicAgent.framework\Versions\A\Resources\Info.plist" />
+    <None Include="0-docs\NewRelic_iOS_Agent_1.300\NewRelic_iOS_Agent_1.300\NewRelicAgent.framework\Versions\Current" />
+    <None Include="0-docs\NewRelic_iOS_Agent_1.300\NewRelic_iOS_Agent_1.300\README" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="0-docs\NewRelic_iOS_Agent_1.300\NewRelic_iOS_Agent_1.300\NewRelicAgent.framework\Versions\A\Headers\NewRelicAgent.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NewRelicAgent.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Xamarin.ObjcBinding.CSharp.targets" />
 </Project>

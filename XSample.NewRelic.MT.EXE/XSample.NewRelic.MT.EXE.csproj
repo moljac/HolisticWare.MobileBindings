@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -103,6 +103,12 @@
     <InterfaceDefinition Include="MainViewController_iPhone.xib" />
     <InterfaceDefinition Include="MainViewController_iPad.xib" />
     <InterfaceDefinition Include="FlipsideViewController.xib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HolisticWare.MobileBindings.NewRelic.MT\HolisticWare.MobileBindings.NewRelic.MT.csproj">
+      <Project>{2D83B528-AE4C-493F-AD52-6A86DADD565D}</Project>
+      <Name>HolisticWare.MobileBindings.NewRelic.MT</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

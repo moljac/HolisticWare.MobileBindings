@@ -1,0 +1,34 @@
+
+	[BaseType (typeof (NSObject))]
+	interface NewRelicAgent {
+		[Static]
+		[Export ("startWithApplicationToken:")]
+		void StartWithApplicationToken (string appToken);
+
+		[Static]
+		[Export ("startWithApplicationToken:withoutSecurity:")]
+		void StartWithApplicationTokenwithoutSecurity (string appToken, bool disableSSL);
+
+		[Static]
+		[Export ("setDeviceLocation:")]
+		void SetDeviceLocation (CLLocation location);
+
+	}
+	interface NRLogger {
+		[Static]
+		[Export ("setLogLevels:")]
+		void SetLogLevels (uint levels);
+
+		[Static]
+		[Export ("setLogTargets:")]
+		void SetLogTargets (uint targets);
+
+		[Static]
+		[Export ("logFilePath")]
+		string LogFilePath ();
+
+		[Static]
+		[Export ("clearLog")]
+		void ClearLog ();
+
+	}
