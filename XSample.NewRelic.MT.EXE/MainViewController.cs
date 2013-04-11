@@ -25,6 +25,14 @@ namespace XSample.NewRelic.MT.EXE
             base.ViewDidLoad();
 			
             // Perform any additional setup after loading the view, typically from a nib.
+
+            NSUrl url = new NSUrl("http://holisticware.net");
+            NSUrlRequest request = new NSUrlRequest(url);
+                        
+            webBrowser1 = new UIWebView();
+            webBrowser1.LoadRequest(request);
+            
+            return;
         }
 		
         public override bool ShouldAutorotateToInterfaceOrientation(UIInterfaceOrientation toInterfaceOrientation)
