@@ -29,8 +29,9 @@ namespace XSample.NewRelic.MT.EXE
             NSUrl url = new NSUrl("http://holisticware.net");
             NSUrlRequest request = new NSUrlRequest(url);
                         
-            webBrowser1 = new UIWebView();
+            //webBrowser1 = new UIWebView();
             webBrowser1.LoadRequest(request);
+			webBrowser1.ScalesPageToFit = true;
             
             return;
         }
