@@ -28,7 +28,10 @@ namespace XSample.NewRelic.MT.EXE
         //
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
-            NewRelicAgent.StartWithApplicationToken("AAf76dc9ac8cb2a9a812a882f1d0f7880d38bb9b33");
+            string key = "AAf76dc9ac8cb2a9a812a882f1d0f7880d38bb9b33";
+            NewRelicAgent.StartWithApplicationToken(key);
+            NewRelicAgent.AutomaticallyNotifiesObserversForKey(key);
+            NewRelicAgent.StartWithApplicationTokenwithoutSecurity(key,true);
              
             // create a new window instance based on the screen size
             window = new UIWindow(UIScreen.MainScreen.Bounds);
