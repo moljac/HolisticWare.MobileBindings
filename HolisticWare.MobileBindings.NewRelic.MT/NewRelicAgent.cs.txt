@@ -1,4 +1,6 @@
 
+namespace HolisticWare.MobileBindings.NewRelic.MT
+{
 	[BaseType (typeof (NSObject))]
 	interface NewRelicAgent {
 		[Static]
@@ -32,3 +34,4 @@
 		void ClearLog ();
 
 	}
+}

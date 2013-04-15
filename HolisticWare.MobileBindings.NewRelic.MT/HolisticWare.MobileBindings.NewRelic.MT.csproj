@@ -60,12 +60,10 @@
     <None Include="0-docs\NewRelic_iOS_Agent_1.300\NewRelic_iOS_Agent_1.300\NewRelicAgent.framework\Versions\A\Resources\Info.plist" />
     <None Include="0-docs\NewRelic_iOS_Agent_1.300\NewRelic_iOS_Agent_1.300\NewRelicAgent.framework\Versions\Current" />
     <None Include="0-docs\NewRelic_iOS_Agent_1.300\NewRelic_iOS_Agent_1.300\README" />
+    <None Include="NewRelicAgent.cs.txt" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="0-docs\NewRelic_iOS_Agent_1.300\NewRelic_iOS_Agent_1.300\NewRelicAgent.framework\Versions\A\Headers\NewRelicAgent.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="NewRelicAgent.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Xamarin.ObjcBinding.CSharp.targets" />
 </Project>

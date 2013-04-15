@@ -5,6 +5,8 @@ using System.Linq;
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
 
+using HolisticWare.MobileBindings.NewRelic.MT;
+
 namespace XSample.NewRelic.MT.EXE
 {
     /// The UIApplicationDelegate for the application. This class is responsible for launching the 
@@ -26,6 +28,8 @@ namespace XSample.NewRelic.MT.EXE
         //
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
+            NewRelicAgent.StartWithApplicationToken("AAf76dc9ac8cb2a9a812a882f1d0f7880d38bb9b33");
+             
             // create a new window instance based on the screen size
             window = new UIWindow(UIScreen.MainScreen.Bounds);
             mainViewController = new MainViewController();
@@ -34,6 +38,7 @@ namespace XSample.NewRelic.MT.EXE
 			
             return true;
         }
+        
     }
 }
 
