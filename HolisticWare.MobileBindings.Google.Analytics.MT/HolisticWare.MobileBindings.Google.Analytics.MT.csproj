@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -44,6 +44,70 @@
   </ItemGroup>
   <ItemGroup>
     <ObjcBindingCoreSource Include="StructsAndEnums.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Changelog.txt" />
+    <Content Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Documentation\html\Classes\GAI.html" />
+    <Content Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Documentation\html\Classes\GAITrackedViewController.html" />
+    <Content Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Documentation\html\Classes\GAITransaction.html" />
+    <Content Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Documentation\html\Classes\GAITransactionItem.html" />
+    <Content Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Documentation\html\css\styles.css" />
+    <Content Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Documentation\html\css\stylesPrint.css" />
+    <Content Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Documentation\html\hierarchy.html" />
+    <Content Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Documentation\html\img\button_bar_background.png" />
+    <Content Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Documentation\html\img\disclosure.png" />
+    <Content Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Documentation\html\img\disclosure_open.png" />
+    <Content Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Documentation\html\img\library_background.png" />
+    <Content Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Documentation\html\img\title_background.png" />
+    <Content Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Documentation\html\index.html" />
+    <Content Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Documentation\html\Protocols\GAITracker.html" />
+    <Content Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Examples\CuteAnimals\AppDelegate.h" />
+    <Content Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Examples\CuteAnimals\CategoryViewController.h" />
+    <Content Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Examples\CuteAnimals\Images\Bunny-1.jpg" />
+    <Content Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Examples\CuteAnimals\Images\Bunny-2.jpg" />
+    <Content Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Examples\CuteAnimals\Images\Bunny-3.jpg" />
+    <Content Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Examples\CuteAnimals\Images\Cat-1.jpg" />
+    <Content Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Examples\CuteAnimals\Images\Cat-2.jpg" />
+    <Content Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Examples\CuteAnimals\Images\Cat-3.jpg" />
+    <Content Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Examples\CuteAnimals\Images\Cat-4.jpg" />
+    <Content Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Examples\CuteAnimals\Images\Lion-1.jpg" />
+    <Content Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Examples\CuteAnimals\Images\Lion-2.jpg" />
+    <Content Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Examples\CuteAnimals\Images\Lion-3.jpg" />
+    <Content Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Examples\CuteAnimals\Images\Lion-4.jpg" />
+    <Content Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Examples\CuteAnimals\Images\Monkey-1.jpg" />
+    <Content Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Examples\CuteAnimals\Images\Monkey-2.jpg" />
+    <Content Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Examples\CuteAnimals\Images\Monkey-3.jpg" />
+    <Content Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Examples\CuteAnimals\Images\Monkey-4.jpg" />
+    <Content Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Examples\CuteAnimals\Images\Monkey-5.jpg" />
+    <Content Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Examples\CuteAnimals\Images\Tiger-1.jpg" />
+    <Content Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Examples\CuteAnimals\Images\Tiger-2.jpg" />
+    <Content Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Examples\CuteAnimals\ImageViewController.h" />
+    <Content Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Examples\CuteAnimals\NavController.h" />
+    <Content Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Examples\CuteAnimals\Readme.txt" />
+    <Content Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Examples\CuteAnimals\RootViewController.h" />
+    <Content Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Library\GAI.h" />
+    <Content Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Library\GAITrackedViewController.h" />
+    <Content Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Library\GAITracker.h" />
+    <Content Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Library\GAITransaction.h" />
+    <Content Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Library\GAITransactionItem.h" />
+    <Content Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <LibraryProjectZip Include="0-docs\GoogleAnalyticsiOS.zip" />
+    <None Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Examples\CuteAnimals\AppDelegate.m" />
+    <None Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Examples\CuteAnimals\CategoryViewController.m" />
+    <None Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Examples\CuteAnimals\CategoryViewController_iPad.xib" />
+    <None Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Examples\CuteAnimals\CategoryViewController_iPhone.xib" />
+    <None Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Examples\CuteAnimals\CuteAnimals-Info.plist" />
+    <None Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Examples\CuteAnimals\CuteAnimals-Prefix.pch" />
+    <None Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Examples\CuteAnimals\CuteAnimals.xcodeproj\project.pbxproj" />
+    <None Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Examples\CuteAnimals\ImageViewController.m" />
+    <None Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Examples\CuteAnimals\main.m" />
+    <None Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Examples\CuteAnimals\NavController.m" />
+    <None Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Examples\CuteAnimals\RootViewController.m" />
+    <None Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Examples\CuteAnimals\RootViewController.xib" />
+    <None Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Library\libGoogleAnalytics.a" />
+    <None Include="0-docs\GoogleAnalyticsiOS\GoogleAnalyticsiOS_2.0beta4\Library\libGoogleAnalytics_debug.a" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Xamarin.ObjcBinding.CSharp.targets" />
 </Project>
